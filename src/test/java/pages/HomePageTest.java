@@ -15,7 +15,7 @@ public class HomePageTest extends BaseClass {
 	@Test (enabled = true)
 	public void startSellingTest01() throws InterruptedException {
 		driver.findElement(By.linkText("Start selling")).click(); 
-		Thread.sleep(5000);
+		Thread.sleep(5000); //
 	}
 	
 	// new
